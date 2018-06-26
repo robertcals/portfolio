@@ -31,7 +31,7 @@ class NavBar extends React.Component {
     return (
       <div className="NavStyle fixed-top">
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Roberto Caldeira</NavbarBrand>
+          <NavbarBrand href="#home">Roberto Caldeira</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
